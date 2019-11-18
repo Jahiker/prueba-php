@@ -1,0 +1,52 @@
+/*
+Theme Name: Prueba
+Author: Jahiker Rojas
+Description: Tema de prueba.
+Version: 1.0
+Tags: one-column, two-columns, test, php, news, slider.
+*/
+
+.fold1 {
+    position: relative;
+    max-width: 100vw;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+.content-video {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+    opacity: 0.6;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.content-video video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+}
+
+button {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin-right: 15px;
+    z-index: 3;
+}
