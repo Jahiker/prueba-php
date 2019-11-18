@@ -55,8 +55,6 @@
 
       <button class="btn btn-outline-light" id="mute"><i class="material-icons align-middle">volume_off</i></button>
 
-      <script src="main.js"></script>
-
       <?php
 
         $datosclima = API_clima();
