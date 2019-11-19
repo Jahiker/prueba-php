@@ -126,26 +126,26 @@
                           if ($titulo != '' && $i === 0) {
     
                             echo"
-                              <div class='carousel-item active'>
-                                <img src='$urlimage' class='d-block w-100' alt='...' style='max-height: 70vh; width: 100vw;'>
-                                <div class='carousel-caption d-none d-md-block'>
-                                  <h5>$titulo</h5>
-                                  <p>$descripcion</p>
-                                </div>
+                            <div class='carousel-item active'>
+                              <a href='$urlnews'><img src='$urlimage' class='d-block w-100' alt='...' style='max-height: 70vh; width: 100vw;'></a>
+                              <div class='carousel-caption d-none d-md-block'>
+                              <a href='$urlnews' style='text-decoration: none; color: white;'><h5>$titulo</h5></a>
+                              <a href='$urlnews' style='text-decoration: none; color: white;'><p>$descripcion</p></a>
                               </div>
+                            </div>
                             ";
                             
                           } elseif ($titulo != '' && $i != 0) {
     
                             echo"
             
-                              <div class='carousel-item'>
-                                <img src='$urlimage' class='d-block w-100' alt='...' style='max-height: 70vh; width: 100vw;'>
-                                <div class='carousel-caption d-none d-md-block'>
-                                  <h5>$titulo</h5>
-                                  <p>$descripcion</p>
-                                </div>
+                            <div class='carousel-item'>
+                              <a href='$urlnews'><img src='$urlimage' class='d-block w-100' alt='...' style='max-height: 70vh; width: 100vw;'></a>
+                              <div class='carousel-caption d-none d-md-block'>
+                              <a href='$urlnews' style='text-decoration: none; color: white;'><h5>$titulo</h5></a>
+                              <a href='$urlnews' style='text-decoration: none; color: white;'><p>$descripcion</p></a>
                               </div>
+                            </div>
             
                             ";
             

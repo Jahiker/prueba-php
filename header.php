@@ -66,7 +66,7 @@
       echo"
     
       <div class='container-fluid fold1 d-flex flex-column justify-content-center align-items-center'>
-        <div class='card' style='width: 22rem; min-width: 25vw; max-width: 65vw; max-height: 100vh;'>
+        <div class='card' style='width: 22rem; min-width: 25vw; max-width: 75vw; max-height: 100vh;'>
           <div class='card-body'>
           <img src='$icono' alt='' class='float-right'>
           <h5 class='card-title'>$temp 	°C</h5>
