@@ -45,7 +45,7 @@
     
               <!-- articulo -->
     
-              <div class='col-12 col-lg-4 col-md-12 col-sm-12' style="position: relative; height: 70vh; width: 100vw; overflow: auto;">
+              <div class='col-12 col-lg-4 col-md-12 col-sm-12' style="position: relative; max-height: 70vh; width: 100vw; overflow: auto;">
     
                 <?php 
     
@@ -127,7 +127,7 @@
     
                             echo"
                               <div class='carousel-item active'>
-                                <img src='$urlimage' class='d-block w-100' alt='...' style='height: 70vh; width: 100vw;'>
+                                <img src='$urlimage' class='d-block w-100' alt='...' style='max-height: 70vh; width: 100vw;'>
                                 <div class='carousel-caption d-none d-md-block'>
                                   <h5>$titulo</h5>
                                   <p>$descripcion</p>
@@ -140,7 +140,7 @@
                             echo"
             
                               <div class='carousel-item'>
-                                <img src='$urlimage' class='d-block w-100' alt='...' style='height: 70vh; width: 100vw;'>
+                                <img src='$urlimage' class='d-block w-100' alt='...' style='max-height: 70vh; width: 100vw;'>
                                 <div class='carousel-caption d-none d-md-block'>
                                   <h5>$titulo</h5>
                                   <p>$descripcion</p>
